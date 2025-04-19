@@ -134,7 +134,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="mt-10 flex justify-end px-52">
+      <div className="mt-10 flex justify-center md:justify-end px-52">
         <Link
           href="https://github.com/brunnosillvar?tab=repositories"
           target="_blank"
