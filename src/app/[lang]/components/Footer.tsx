@@ -18,11 +18,11 @@ export default function Footer() {
 
   return (
     <footer className="flex w-full justify-center mt-16">
-      <div className="w-2/3 flex items-center justify-between gap-12 border-t border-white-3 dark:border-black-3 pt-7 pb-7">
+      <div className="w-full md:w-2/3 flex flex-col md:flex-row items-center justify-between gap-12 border-t border-white-3 dark:border-black-3 pt-7 pb-7">
         <p className="text-sm text-white-3 dark:text-black-3">
           © {new Date().getFullYear()} {pageContent.description}
         </p>
-        <div className="flex gap-6">
+        <div className="flex gap-6 ">
           <Link
             href="https://www.linkedin.com/in/brunnosillvar/"
             target="_blank"
