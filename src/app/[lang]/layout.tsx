@@ -7,6 +7,7 @@ import { LanguageProvider } from '@/context/LanguageContext'
 import { Header } from '@/components/Header'
 import Head from 'next/head'
 import { cn } from '@/lib/utils'
+import { ReactNode } from 'react'
 
 const outfitSans = Outfit({
   variable: '--font-outfit-sans',
@@ -23,6 +24,10 @@ export const metadata: Metadata = {
   manifest: '/manifest.json'
 }
 
+type PageParams = {
+  lang: 'pt' | 'en'
+}
+
 export function generateStaticParams() {
   return [{ lang: 'en' }, { lang: 'pt' }]
 }
@@ -30,11 +35,12 @@ export function generateStaticParams() {
 export default async function RootLayout({
   children,
   params
-}: Readonly<{
-  children: React.ReactNode
-  params: { lang: 'pt' | 'en' }
-}>) {
-  const { lang } = await params
+}: {
+  children: ReactNode
+  params: Promise<PageParams>
+}) {
+  const resolvedParams = await params
+  const { lang } = resolvedParams
 
   return (
     <html
