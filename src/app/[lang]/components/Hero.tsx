@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useLanguage } from '@/context/LanguageContext'
 import Link from 'next/link'
-import BrunoRodrigues from '@/assets/images/bruno-rodrigues.png'
+import BrunoRodrigues from '@/assets/images/bruno-rodrigues-profile.png'
 
 const content = {
   en: {
