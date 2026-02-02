@@ -15,7 +15,7 @@ const outfitSans = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Bruno Rodrigues - Web Developer',
+  title: 'Bruno Rodrigues - Software Engineer',
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png'

@@ -24,14 +24,14 @@ export default function Footer() {
         </p>
         <div className="flex gap-6 ">
           <Link
-            href="https://www.linkedin.com/in/brunnosillvar/"
+            href="https://www.linkedin.com/in/brunorodriguesdev/"
             target="_blank"
             className="text-sm text-white-3 dark:text-black-3"
           >
             LinkedIn
           </Link>
           <Link
-            href="https://www.instagram.com/buildwithbruno"
+            href="https://www.instagram.com/brunorodrigues.dev"
             target="_blank"
             className="text-sm text-white-3 dark:text-black-3"
           >

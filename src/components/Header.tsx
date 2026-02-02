@@ -30,7 +30,7 @@ export function Header() {
 
         <nav className="flex gap-6 md:gap-12">
           <Link
-            href={`https://www.linkedin.com/in/brunnosillvar/`}
+            href={`https://www.linkedin.com/in/brunorodriguesdev/`}
             target="_blank"
           >
             <Image
@@ -39,7 +39,7 @@ export function Header() {
             />
           </Link>
           <Link
-            href={`https://www.instagram.com/buildwithbruno`}
+            href={`https://www.instagram.com/brunorodrigues.dev`}
             target="_blank"
           >
             <Image

@@ -35,14 +35,6 @@ export default function Hero() {
       <h3 className="text-6xl font-semibold text-black-2 dark:text-white-2 mt-3">
         {pageContent.subtitle}
       </h3>
-
-      <Link
-        href="https://read.cv/brunnosillvar"
-        target="_blank"
-        className="px-10 py-2.5 mt-14 border border-black-2 text-black-2 dark:border-text-white-2 dark:text-white-2"
-      >
-        Read.cv
-      </Link>
     </div>
   )
 }
